@@ -1,0 +1,147 @@
+/* .audio-player {
+    margin: 20px 0;
+  }
+  
+  .rhap_container {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .rhap_progress-filled {
+    background-color: #000;
+  }
+  
+  .rhap_time {
+    font-size: 14px;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  .rhap_volume-bar-area {
+    margin-right: 10px;
+  }
+  
+  .rhap_volume-bar-fill {
+    background-color: #000;
+  } */
+
+  .audio-player {
+    margin: 20px 0;
+  }
+  
+  .audio-player audio {
+    width: 100%;
+  }
+  
+  .audio-player audio::-webkit-media-controls-panel {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .audio-player audio::-webkit-media-controls-play-button,
+  .audio-player audio::-webkit-media-controls-pause-button {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+  }
+  
+  .audio-player audio::-webkit-media-controls-play-button {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-play-128.png');
+  }
+  
+  .audio-player audio::-webkit-media-controls-pause-button {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-pause-128.png');
+  }
+  
+  .audio-player audio::-webkit-media-controls-current-time-display,
+  .audio-player audio::-webkit-media-controls-time-remaining-display {
+    font-size: 14px;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  .audio-player audio::-webkit-media-controls-volume-slider,
+  .audio-player audio::-webkit-media-controls-mute-button,
+  .audio-player audio::-webkit-media-controls-timeline,
+  .audio-player audio::-webkit-media-controls-fullscreen-button {
+    display: none;
+  }
+  
+
+  .star-wars-text p {
+    font-family: 'Star Jedi', sans-serif;
+    font-size: 24px;
+    color: yellow;
+    animation: star-wars-crawl 20s linear infinite;
+  }
+  
+  @keyframes star-wars-crawl {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6, 0 0 55px #00e6e6, 0 0 75px #00e6e6;
+  }
+
+
+  /* :root {
+    --white: #3a0b0b;
+    --orange: #a57631;
+    --background: var(--white);
+    --text-color: #a82222;
+  }
+  
+  .AppMode.dark {
+    --background: var(--orange);
+    --text-color: var(--white);
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--orange);
+    color: var(--white);
+  } */
+  
+body {
+  --background-color: #fff;
+  --text-color: #000;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+}
+
+.xablau {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height: 100vh;
+
+}
