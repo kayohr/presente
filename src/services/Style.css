@@ -145,3 +145,24 @@ body {
   height: 100vh;
 
 }
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card-wrapper {
+  width: 560px;
+}
+
+.card-wrapper .card {
+  position: relative;
+  width: 280px;
+  height: 497.7777777778px;
+  transform: perspective(1000px) translate(50%)scale(0.5)rotateY(0deg);
+  transform-origin: 50px center;
+  transition:  1s cubic-bezier(0,0,0,0.94);
+}

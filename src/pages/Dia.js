@@ -65,8 +65,30 @@ const Dia = () => {
       </div>
 
       <body className={`container3 ${isDarkMode ? 'dark' : ''}`}>
-        <p text>xablau</p>
-        <span className="xablau">xablau</span>
+        <h3 text>
+        
+        Não sei como vai ser<br></br>
+        Não sei quando vai chover<br></br>
+        Não sei como vai amanhecer<br></br>
+        Não sei de nada que irar acontecer<br></br>
+        Imagine o que ira passar na TV<br></br>
+        Mas, a minha certeza que vou te ter<br></br>
+        Ao longa da caminhada a minha dupla de dois<br></br>
+        Para sempre juntos, minha vontade e minha lei<br></br>
+        Planos e sonhos que não quero deixar para depois<br></br>
+        Quero que minha princesa vira rainha, pra só assim eu ser rei</h3>
+        <h3 className="xablau">
+        Dias vão e noites vem<br></br>
+        É isso que quero com você meu bem<br></br>
+        Minha doce flor bela e formosa<br></br>
+        Como quero estar contigo nas noites de aurora<br></br>
+        Anjo da luz ou da escuridao<br></br>
+        Não sei, só sei que quero estar no seu coração<br></br>
+        Me trancar dentro dele e jogar a chave longe<br></br>
+        Tomara que ela se perca na escuridao<br></br>
+        Mas enquanto isso, espero na paciência de um monge<br></br>
+        Quando chegar o dia pra demonstrar minha grande paixão<br></br>
+        </h3>
       </body>
     </>
   );

@@ -294,6 +294,8 @@ to{
 .carousel img {
   max-height: 2500px;
   object-fit: cover;
+  max-width: 700px;
+  margin: 0 auto;
   /* object-position: center bottom; */
 }
 

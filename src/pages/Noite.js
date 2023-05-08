@@ -43,6 +43,13 @@ const Noite = () => {
     <p>A long time ago in a galaxy far, far away....<br></br>xablau</p>
   </marquee>
 </div>
+    <footer>
+    <pre className='coracao'><code className='code'>
+      teste xablau
+    </code>
+
+    </pre>
+    </footer>
     </>
   );
 }
