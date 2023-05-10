@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    position: relative;
+
+    background-image: url('../Image//images\ \(5\).jpeg');
+}

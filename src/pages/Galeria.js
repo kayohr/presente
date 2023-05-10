@@ -39,7 +39,7 @@ export default function Galeria() {
     {xablau === 'dark' ? '🌞' : '🌒'}
   </button>
 <br></br>
-      <p>xablau</p>
+      <p>As 3 melhores &#x2764;</p>
   </div>
       <br></br>
   <CarouselPag />      

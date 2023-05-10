@@ -48,7 +48,7 @@ const Dia = () => {
         <button onClick={toggleDarkMode}>Depois de ler o dia, toque aqui para ficar noite!</button>
       </div>
 
-      <marquee style={{ maxWidth: '800px', margin: '0 auto' }}>Olá, este é um letreiro digital!</marquee>
+      <marquee style={{ maxWidth: '800px', margin: '0 auto' }}>Olá, só um lembrete que eu a amo! Muitooooooooo!&#x2764;&#x2764;</marquee>
 
       <div className="cs">Dia</div>
 

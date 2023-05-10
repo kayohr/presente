@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { AiOutlineRollback } from 'react-icons/ai';
 import { NavLink } from 'react-router-dom';
 import '../services/Style.css';
+import '../services/noite.css'
 
 const Noite = () => {
   const [previewUrl, setPreviewUrl] = useState('');
@@ -38,18 +39,12 @@ const Noite = () => {
       </NavLink>
       <div className="noite" />
       <button onClick={handlePlay}>Play</button>
-      <div className="star-wars-text intro">
+      {/* <div className="star-wars-text intro">
   <marquee behavior="scroll" direction="up" scrollamount="4">
     <p>A long time ago in a galaxy far, far away....<br></br>xablau</p>
   </marquee>
-</div>
-    <footer>
-    <pre className='coracao'><code className='code'>
-      teste xablau
-    </code>
-
-    </pre>
-    </footer>
+</div> */}
+  
     </>
   );
 }
