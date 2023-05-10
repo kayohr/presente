@@ -44,7 +44,10 @@ const Noite = () => {
     <p>A long time ago in a galaxy far, far away....<br></br>xablau</p>
   </marquee>
 </div> */}
-  
+  <div className='body'></div>
+
+  <div className='agua'></div>
+  <div className='areia'></div>
     </>
   );
 }
